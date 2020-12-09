@@ -1,0 +1,7 @@
+# 注册成功的数据放register_pass.yaml
+# 注册失败的数据放register_fail.yaml
+- data: {"mobilephone":"","pwd":"666666"}
+  expect: {"code":20103,"data":{},"msg":"手机号不能为空","status":0}
+
+- data: ……
+  expect: ……

@@ -1,0 +1,19 @@
+#zelin.register.005
+- data: {"mobilephone":"18066668888","pwd":"abcd_1"}
+  expect: {"code":10001,"data":{},"msg":"注册成功","status":1}
+
+#zelin.register.006
+- data: {"mobilephone":"18166668888","pwd":"abcd_1abcd_1abcd_1"}
+  expect: {"code":10001,"data":{},"msg":"注册成功","status":1}
+
+#zelin.register.010
+- data: {"mobilephone":"18266668888","pwd":"HelloWorld","regname":""}
+  expect: {"code":10001,"data":{},"msg":"注册成功","status":1}
+
+#zelin.register.011
+- data: {"mobilephone":"18366668888","pwd":"HelloWorld","regname":"HelloWorld"}
+  expect: {"code":10001,"data":{},"msg":"注册成功","status":1}
+
+#zelin.register.012
+- data: {"mobilephone":"18466668888","pwd":"HelloWorld","regname":"HelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorldHelloWorld"}
+  expect: {"code":10001,"data":{},"msg":"注册成功","status":1}

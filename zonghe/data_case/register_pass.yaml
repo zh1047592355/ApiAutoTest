@@ -1,0 +1,2 @@
+- data: {"mobilephone":"15913577531","pwd":"123456"}
+  expect: {"msg":"注册成功"}
