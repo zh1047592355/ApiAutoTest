@@ -3,10 +3,7 @@
 '''
 import os
 import sys
-
 import pytest
-from zonghe.caw import DataRead
-from zonghe.caw.BaseRequests import BaseRequests
 
 def get_project_path():
     '''
@@ -24,6 +21,9 @@ def get_project_path():
 
 print(get_project_path())
 sys.path.append(get_project_path())
+
+from zonghe.caw import DataRead
+from zonghe.caw.BaseRequests import BaseRequests
 
 #从环境文件中读环境信息，整个过程读一次即可
 @pytest.fixture(scope='session')
